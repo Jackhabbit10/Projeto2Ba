@@ -22,6 +22,8 @@ namespace Projeto2B.Controllers
             return View();
 
         }
+
+
         [HttpPost]
         public IActionResult Login(String email,string senha)
         {
